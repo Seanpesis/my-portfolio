@@ -4,6 +4,7 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+    width: 100%; 
   }
   
   .navbar .container {
@@ -32,4 +33,48 @@
   .navbar a:hover {
     color: #e94560;
   }
+
+  .social-links li {
+    margin: 0 5px;
+  }
   
+  .social-links a {
+    color: #333333;
+    font-size: 1.5em;
+    transition: color 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #e94560;
+  }
+  
+
+.nav-links, .social-links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+
+.nav-links a {
+  font-weight: 600;
+  color: #333333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #e94560;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}

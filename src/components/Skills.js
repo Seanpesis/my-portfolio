@@ -36,6 +36,7 @@ function Skills() {
               <li>Git</li>
               <li>Visual Studio</li>
               <li>Firebase</li>
+              <li>Xcode</li>
             </ul>
           </div>
           <div className="skill-category">
