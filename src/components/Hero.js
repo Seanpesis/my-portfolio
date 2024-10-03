@@ -11,7 +11,7 @@ function Hero() {
         <p>
           🔭 I’m currently working on side projects and learning various technologies.<br />
           🎓 Studying Computer Science (BSc, 2nd year).<br />
-          👀 Looking to collaborate on Kotlin, Java, and Python projects.<br />
+          👀 Looking to collaborate on CI/CD pipeline, Jenkins, Kubernetes, and Python projects.<br />
           🤔 Seeking guidance in open-source contributions and problem-solving challenges.<br />
           💬 Feel free to ask me about software development, debugging, or game design.
         </p>

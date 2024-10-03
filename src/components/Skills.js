@@ -11,39 +11,61 @@ function Skills() {
             <h3>Languages</h3>
             <ul>
               <li>Kotlin</li>
+              <li>Xcode</li>
               <li>Java</li>
               <li>Swift</li>
               <li>Python</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
               <li>C</li>
               <li>C++</li>
+              <li>C#</li>
             </ul>
           </div>
           <div className="skill-category">
-            <h3>Frameworks</h3>
+            <h3>Web development</h3>
             <ul>
+              <li>HTML</li>
+              <li>CSS</li>
               <li>React</li>
-              <li>Node.js</li>
-              <li>Flask</li>
-              <li>SwiftUI</li>
             </ul>
           </div>
           <div className="skill-category">
-            <h3>Tools</h3>
+            <h3>Version Control</h3>
             <ul>
               <li>Git</li>
+              <li>GitLab</li>
+              <li>GitHub</li>
               <li>Visual Studio</li>
               <li>Firebase</li>
-              <li>Xcode</li>
             </ul>
           </div>
           <div className="skill-category">
             <h3>Databases</h3>
             <ul>
               <li>MongoDB</li>
-              <li>MySQL</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div className="skill-category">
+            <h3>Scripting</h3>
+            <ul>
+              <li>Bash</li>
+              <li>PowerShell</li>
+            </ul>
+          </div>
+          <div className="skill-category">
+            <h3>DevOps & CI/CD</h3>
+            <ul>
+              <li>CI/CD Pipeline </li>
+              <li>Kubernetes</li>
+              <li>Docker</li>
+              <li>Jenkins</li>
+            </ul>
+          </div>
+          <div className="skill-category">
+            <h3>Cloud Platforms</h3>
+            <ul>
+              <li>Azure</li>
+              <li>AWS</li>
             </ul>
           </div>
         </div>
