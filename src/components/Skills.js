@@ -55,12 +55,45 @@ function Skills() {
           <div className="skill-category">
             <h3>DevOps & CI/CD</h3>
             <ul>
-              <li>CI/CD Pipeline </li>
-              <li>Kubernetes</li>
-              <li>Docker</li>
-              <li>Jenkins</li>
+            <li>CI/CD Pipeline</li>
+      <li>Kubernetes</li>
+      <li>Docker</li>
+      <li>Jenkins</li>
+      <li>Helm</li>
+      <li>Prometheus</li>
+      <li>Grafana</li>
+      <li>kubectl</li>
+      <li>npx</li>
             </ul>
           </div>
+          <div className="skill-category">
+    <h3>Monitoring & Logging</h3>
+    <ul>
+      <li>Prometheus</li>
+      <li>Grafana</li>
+    </ul>
+  </div>
+  <div className="skill-category">
+    <h3>ChatOps</h3>
+    <ul>
+      <li>Slack</li>
+      <li>Slack API</li>
+    </ul>
+  </div>
+  <div className="skill-category">
+    <h3>Infrastructure as Code (IaC)</h3>
+    <ul>
+      <li>Helm Charts</li>
+      <li>kubectl</li>
+    </ul>
+  </div>
+  <div className="skill-category">
+    <h3>Security</h3>
+    <ul>
+      <li>DevSecOps Practices</li>
+      <li>Jenkins Security Plugins</li>
+    </ul>
+  </div>
           <div className="skill-category">
             <h3>Cloud Platforms</h3>
             <ul>
