@@ -60,9 +60,6 @@ function Skills() {
       <li>Docker</li>
       <li>Jenkins</li>
       <li>Helm</li>
-      <li>Prometheus</li>
-      <li>Grafana</li>
-      <li>kubectl</li>
       <li>npx</li>
             </ul>
           </div>
