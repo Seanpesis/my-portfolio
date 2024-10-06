@@ -21,6 +21,12 @@ function Projects() {
       techStack: 'Swift, Xcode',
       image: '/images/tetris-game.png',
     },
+    {
+      title: 'Devsecops-App',
+      description: 'Devsecops-App is a comprehensive DevSecOps platform that integrates Jenkins and Kubernetes with Slack, enabling secure and automated CI/CD pipeline management through intuitive ChatOps interactions',
+      techStack: 'Jenkins, Kubernetes, Docker, Helm, Prometheus, Grafana, Node.js, NPM, Jest, GitHub, kubectl',
+      image: '/images/Devsecops.png',
+    },
   ];
 
   return (
