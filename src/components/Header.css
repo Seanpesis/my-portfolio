@@ -1,80 +1,92 @@
 .navbar {
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    width: 100%; 
-  }
-  
-  .navbar .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .navbar ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .navbar li {
-    margin: 0 15px;
-  }
-  
-  .navbar a {
-    font-weight: 600;
-    color: #333333;
-    transition: color 0.3s;
-  }
-  
-  .navbar a:hover {
-    color: #e94560;
-  }
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%; 
+}
 
-  .social-links li {
-    margin: 0 5px;
-  }
-  
-  .social-links a {
-    color: #333333;
-    font-size: 1.5em;
-    transition: color 0.3s;
-  }
-  
-  .social-links a:hover {
-    color: #e94560;
-  }
-  
+.navbar .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.nav-links, .social-links {
+.navbar ul {
   list-style: none;
   display: flex;
   padding: 0;
   margin: 0;
 }
 
-.nav-links li {
-  margin: 0 10px;
+.navbar li {
+  margin: 0 15px;
 }
 
-
-.nav-links a {
+.navbar a {
   font-weight: 600;
   color: #333333;
-  text-decoration: none;
   transition: color 0.3s;
 }
 
-.nav-links a:hover {
+.navbar a:hover {
   color: #e94560;
 }
 
-.navbar-content {
-  display: flex;
-  justify-content: space-between;
+.social-links li {
+  margin: 0 5px;
   align-items: center;
-  padding: 0 20px;
+
+}
+
+.social-links a {
+  color: #333333;
+  font-size: 1.5em;
+  transition: color 0.3s;
+  align-items: center;
+
+}
+
+.social-links a:hover {
+  color: #e94560;
+  align-items: center;
+
+}
+
+
+.nav-links, .social-links {
+list-style: none;
+display: flex;
+padding: 0;
+margin: 0;
+}
+
+.nav-links li {
+margin: 0 10px;
+}
+
+.social-links {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.nav-links a {
+font-weight: 600;
+color: #333333;
+text-decoration: none;
+transition: color 0.3s;
+}
+
+.nav-links a:hover {
+color: #e94560;
+}
+
+.navbar-content {
+display: flex;
+align-items: center;
+padding: 0 20px;
+justify-content: center;
 }
