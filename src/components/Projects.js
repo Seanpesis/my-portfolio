@@ -16,6 +16,12 @@ function Projects() {
       image: '/images/pactroll.png',
     },
     {
+      title: 'Devops Project',
+      description: 'The project is a DevOps Portfolio that automates CI/CD pipelines, manages infrastructure with Terraform, and deploys applications using Docker and Kubernetes on AWS.',
+      techStack: 'CI/CD, Terraform, Docker, Kubernetes.',
+      image: '/images/devpro.png',
+    },
+    {
       title: 'Tetris Game',
       description: 'Developed in Swift for iPad with responsive controls.',
       techStack: 'Swift, Xcode',
