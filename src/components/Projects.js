@@ -33,6 +33,12 @@ function Projects() {
       techStack: 'Jenkins, Kubernetes, Docker, Helm, Prometheus, Grafana, Node.js, NPM, Jest, GitHub, kubectl',
       image: '/images/Devsecops.png',
     },
+    {
+    title: 'Movie Recommendations',
+    description: 'Platform to discover and get recommendations for movies based on ratings, genres, titles, and directors.',
+    techStack: 'React, CSS, Axios, Git & GitHub.',
+    image: '/images/logomov.png',
+    }
   ];
 
   return (
