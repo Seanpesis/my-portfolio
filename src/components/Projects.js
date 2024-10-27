@@ -44,7 +44,7 @@ function Projects() {
       description: 'Platform to discover and get recommendations for movies based on ratings, genres, titles, and directors.',
       techStack: 'React, CSS, Axios, Git & GitHub',
       image: '/images/logomov.png',
-      link: 'https://movie-and-chill.netlify.app/',
+      link: 'https://movies-and-chills.netlify.app/',
     },
   ];
 
