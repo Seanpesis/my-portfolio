@@ -104,6 +104,7 @@ function Skills() {
               <li>AWS</li>
               <li>AWS Elastic Beanstalk</li>
               <li>AWS Lambda</li>
+              <li>Google Cloud</li>
             </ul>
           </div>
         </div>
