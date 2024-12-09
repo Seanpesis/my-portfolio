@@ -46,6 +46,27 @@ function Projects() {
       image: '/images/logomov.png',
       link: 'https://movies-and-chills.netlify.app/',
     },
+    {
+      title: 'Interactive Hand-Controlled Pong Game',
+      description: 'An interactive Pong game built with Python, OpenCV, and MediaPipe Hands that allows players to control paddles using real-time hand movements via a webcam, featuring both single-player and multiplayer modes, dynamic scoring, and increasing ball speed for enhanced gameplay.',
+      techStack: 'Python, OpenCV, MediaPipe Hands, NumPy',
+      image: '/images/InteractivePong.png',
+      link: 'https://github.com/Seanpesis/Ping_Pong',
+    },
+    {
+      title: "Hand Gesture Tic-Tac-Toe",
+      description: "Hand Gesture Tic-Tac-Toe is an interactive game developed using Python, OpenCV, and Mediapipe, enabling users to play Tic-Tac-Toe through real-time hand gesture recognition.",
+      techStack: "Python, OpenCV, Mediapipe, NumPy",
+      image:"/images/HandGestureTicTacToe.png",
+      link:'https://github.com/Seanpesis/tic_tac_toe',
+    },
+    {
+      title: "Emoji Gesture App",
+      description: "An innovative application that transforms hand gestures into emojis using real-time computer vision and AI. Built with Python, OpenCV, and MediaPipe, this app streamlines digital communication by allowing users to generate emojis through natural hand movements.",
+      techStack: "Python, OpenCV, MediaPipe, PyQt, NumPy",
+      image: "/images/EmojiGestureApp.png",
+      link: 'https://github.com/Seanpesis/emoji-gesture-app',
+    },
   ];
 
   return (
