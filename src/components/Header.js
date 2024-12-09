@@ -1,18 +1,19 @@
+// src/components/Header.js
 import React from 'react';
 import './Header.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function Header() {
   return (
     <header className="navbar">
-      <div className="container">
-        <nav>
-          <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <ul className="social-links">
+      <nav className="navbar-content">
+        <ul className="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
           <li>
             <a href="https://github.com/Seanpesis" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
@@ -24,8 +25,12 @@ function Header() {
             </a>
           </li>
         </ul>
-        </nav>
-      </div>
+        <div className="download-cv">
+          <a href="/SeanPesis_CV.pdf" target="_blank" rel="noopener noreferrer" download>
+            <i className="fas fa-file-download"></i> Download CV
+          </a>
+        </div>
+      </nav>
     </header>
   );
 }

@@ -13,6 +13,7 @@ function Skills() {
               <li>Kotlin</li>
               <li>Xcode</li>
               <li>Java</li>
+              <li>JavaScript</li>
               <li>Swift</li>
               <li>Python</li>
               <li>C</li>
@@ -34,6 +35,7 @@ function Skills() {
               <li>Git</li>
               <li>GitLab</li>
               <li>GitHub</li>
+              <li>GitHub Actions</li>  
               <li>Visual Studio</li>
               <li>Firebase</li>
             </ul>
@@ -61,6 +63,7 @@ function Skills() {
       <li>Jenkins</li>
       <li>Helm</li>
       <li>npx</li>
+       <li>Ansible</li>
             </ul>
           </div>
           <div className="skill-category">
@@ -68,6 +71,7 @@ function Skills() {
     <ul>
       <li>Prometheus</li>
       <li>Grafana</li>
+      <li>Elastic Stack (ELK)</li>
     </ul>
   </div>
   <div className="skill-category">
@@ -82,6 +86,7 @@ function Skills() {
     <ul>
       <li>Helm Charts</li>
       <li>kubectl</li>
+      <li>Terraform</li>
     </ul>
   </div>
   <div className="skill-category">
@@ -89,6 +94,7 @@ function Skills() {
     <ul>
       <li>DevSecOps Practices</li>
       <li>Jenkins Security Plugins</li>
+      <li>AWS IAM</li>
     </ul>
   </div>
           <div className="skill-category">
@@ -96,6 +102,9 @@ function Skills() {
             <ul>
               <li>Azure</li>
               <li>AWS</li>
+              <li>AWS Elastic Beanstalk</li>
+              <li>AWS Lambda</li>
+              <li>Google Cloud</li>
             </ul>
           </div>
         </div>

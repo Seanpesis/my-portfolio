@@ -85,8 +85,64 @@ color: #e94560;
 }
 
 .navbar-content {
-display: flex;
-align-items: center;
-padding: 0 20px;
-justify-content: center;
+  display: flex;
+  justify-content: space-between; /* מבטיח שהקישורים וההורדה יהיו במקומות הנכונים */
+  align-items: center;
+  padding: 10px 20px;
+}
+.nav-links, .social-links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li, .social-links li {
+  margin: 0 15px;
+}
+
+.download-cv {
+  margin-left: auto; /* דוחף את הכפתור להורדה לימין */
+}
+
+.download-cv a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #e94560; /* צבע אדום */
+  border-radius: 30px; /* עושה את הכפתור לעגול/אליפסה */
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.download-cv a:hover {
+  background-color: #ff5e7d; /* שינוי קל בצבע כדי להראות אפקט hover */
+  color: #ffffff;
+}
+
+.download-cv i {
+  margin-right: 5px; /* מרווח בין האייקון לטקסט */
+}
+
+.nav-links a, .social-links a {
+  font-weight: 600;
+  color: #333333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover, .social-links a:hover {
+  color: #e94560;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+}
+
+.social-links i {
+  margin-right: 5px;
 }
