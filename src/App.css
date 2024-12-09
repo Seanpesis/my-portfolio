@@ -3,10 +3,9 @@
 /* Global styles specific to App component */
 
 .App {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  /* You can add any global styles or overrides here */
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* You can add any global styles or overrides here */

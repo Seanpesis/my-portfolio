@@ -1,35 +1,34 @@
 #education {
-    padding: 50px 20px;
-    width: 100%; 
-  }
-  
-  #education h2 {
-    font-size: 2.5em;
-    margin-bottom: 1em;
-    text-align: center;
-  }
-  
-  .education-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .education-item {
-    background-color: #ecf0f1;
-    padding: 20px;
-    margin: 10px;
-    width: 80%;
-    border-radius: 5px;
-    text-align: center;
-  }
-  
-  .education-item h3 {
-    margin-top: 0;
-    text-align: center;
-  }
-  
-  .education-item p {
-    text-align: center;
-  }
-  
+  padding: 50px 20px;
+  width: 100%; 
+}
+
+#education h2 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education-item {
+  background-color: #ecf0f1;
+  padding: 20px;
+  margin: 10px;
+  width: 80%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.education-item h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.education-item p {
+  text-align: center;
+}
