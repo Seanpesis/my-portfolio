@@ -13,9 +13,9 @@ function App() {
   const [showScroll, setShowScroll] = useState(false);
 
   const checkScrollTop = () => {
-    if (!showScroll && window.pageYOffset > 400) {
+    if (window.pageYOffset > 400) {
       setShowScroll(true);
-    } else if (showScroll && window.pageYOffset <= 400) {
+    } else {
       setShowScroll(false);
     }
   };
@@ -29,7 +29,7 @@ function App() {
     return () => {
       window.removeEventListener('scroll', checkScrollTop);
     };
-  }, [showScroll]);
+  }, []); // ✅ Empty dependency array (runs once)
 
   return (
     <div className="App">
