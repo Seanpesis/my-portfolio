@@ -1,8 +1,25 @@
-// src/components/Projects.js
 import React from 'react';
+import Slider from 'react-slick';
 import './Projects.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
+function NextArrow({ onClick }) {
+  return (
+    <div className="custom-arrow custom-next" onClick={onClick}>
+      ❯
+    </div>
+  );
+}
+
+function PrevArrow({ onClick }) {
+  return (
+    <div className="custom-arrow custom-prev" onClick={onClick}>
+      ❮
+    </div>
+  );
+}
+
 
 function Projects() {
   const projectList = [
@@ -69,13 +86,23 @@ function Projects() {
     },
   ];
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+  };
+
   return (
     <section id="projects">
       <div className="container">
         <h2>🔥 My Projects</h2>
-        <div className="projects-grid">
+        <Slider {...settings}>
           {projectList.map((project, index) => (
-            <div key={index} className="project-card">
+            <div key={index} className="project-slide">
               <img src={project.image} alt={project.title} />
               <div className="project-info">
                 <h3>{project.title}</h3>
@@ -94,7 +121,7 @@ function Projects() {
               </div>
             </div>
           ))}
-        </div>
+        </Slider>
       </div>
     </section>
   );
