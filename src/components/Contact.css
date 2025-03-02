@@ -25,3 +25,18 @@
 #contact a:hover {
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  #contact {
+    padding: 60px 20px;
+  }
+  #contact h2 {
+    font-size: 2em;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.95em;
+  }
+  .contact-info {
+    font-size: 1em;
+  }
+}

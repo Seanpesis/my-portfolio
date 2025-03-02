@@ -1,7 +1,7 @@
 #experience {
   padding: 50px 20px;
   background-color: #f9f9f9;
-  width: 100%; 
+  width: 100%;
 }
 
 #experience h2 {
@@ -33,4 +33,15 @@
 
 .experience-item p {
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .experience-item {
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+  }
+  #experience h2 {
+    font-size: 2em;
+  }
 }

@@ -79,16 +79,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .project-slide img {
-  max-width: 80%; /* Increase width while keeping responsiveness */
-  height: 250px; /* Increase height */
-  object-fit: cover; /* Ensures image fills space properly */
-  border-radius: 10px; /* Slightly rounded corners for better UI */
-  margin: 0 auto; /* Centers the image */
-  transition: transform 0.3s ease-in-out; /* Smooth effect on hover */
+  max-width: 80%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out;
 }
 
 .project-info {
@@ -98,12 +98,12 @@
 
 .project-info h3 {
   margin-bottom: 10px;
-  font-size: 1.2em; 
+  font-size: 1.2em;
 }
 
 .project-info p {
   margin-bottom: 10px;
-  font-size: 0.9em; 
+  font-size: 0.9em;
 }
 
 .project-link {
@@ -122,8 +122,8 @@
   background-color: rgba(233, 69, 96, 0.8);
   color: white;
   border-radius: 50%;
-  padding: 15px 25px; /* Increased padding for width */
-  font-size: 30px; /* Slightly bigger icon */
+  padding: 15px 25px;
+  font-size: 30px;
   font-weight: bold;
   cursor: pointer;
   z-index: 2;
@@ -131,7 +131,7 @@
 }
 
 .custom-prev {
-  left: -50px; /* Adjust distance from the left */
+  left: -50px;
 }
 
 .custom-next {
@@ -141,4 +141,17 @@
 .custom-arrow:hover {
   background-color: #ff5e7d;
   transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  #projects {
+    padding: 60px 20px;
+  }
+  #projects h2 {
+    font-size: 2em;
+  }
+  .custom-arrow {
+    padding: 10px 15px;
+    font-size: 24px;
+  }
 }

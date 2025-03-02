@@ -1,7 +1,7 @@
 #skills {
   padding: 80px 0;
   background-color: #f0f0f0;
-  width: 100%; 
+  width: 100%;
 }
 
 #skills h2 {
@@ -45,4 +45,17 @@
   margin: 8px 0;
   color: #555555;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  #skills {
+    padding: 60px 20px;
+  }
+  #skills h2 {
+    font-size: 2em;
+  }
+  .skill-category {
+    width: 90%;
+    margin: 10px 0;
+  }
 }
