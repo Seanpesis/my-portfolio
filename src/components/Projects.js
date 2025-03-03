@@ -28,7 +28,7 @@ function Projects() {
       description: 'Social platform for sharing experiences.',
       techStack: 'React, Node.js, MongoDB',
       image: '/images/friendly-place.png',
-      link: 'https://github.com/Seanpesis/Friendly-Place',
+      link: 'https://friendlyplace.netlify.app/',
     },
     {
       title: 'Pactroll',
