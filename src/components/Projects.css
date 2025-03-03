@@ -37,8 +37,8 @@
 }
 
 .project-info {
-  padding: 20px;
   margin-top: 10px;
+  text-align: center;
 }
 
 .project-info h3 {
@@ -54,12 +54,16 @@
   margin-bottom: 10px;
 }
 
+.project-link.visit-site {
+  margin-bottom: 35px;
+}
+
 .project-link {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 20px;
   font-weight: bold;
-  color: #007bff;
+  color: #ffffff;
   background-color: #e94560;
   text-decoration: none;
   border-radius: 25px;
@@ -104,15 +108,6 @@
 .project-info p {
   margin-bottom: 10px;
   font-size: 0.9em;
-}
-
-.project-link {
-  color: #fbfbfc;
-  text-decoration: none;
-}
-
-.project-link:hover {
-  text-decoration: underline;
 }
 
 .custom-arrow {

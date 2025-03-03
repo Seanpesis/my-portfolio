@@ -20,7 +20,6 @@ function PrevArrow({ onClick }) {
   );
 }
 
-
 function Projects() {
   const projectList = [
     {
@@ -28,13 +27,15 @@ function Projects() {
       description: 'Social platform for sharing experiences.',
       techStack: 'React, Node.js, MongoDB',
       image: '/images/friendly-place.png',
-      link: 'https://friendlyplace.netlify.app/',
+      siteLink: 'https://friendlyplace.netlify.app/',
+      link: 'https://github.com/Seanpesis/friendly-place',
     },
     {
       title: 'Pactroll',
       description: 'Game similar to Pac-Man but with unique twists.',
       techStack: 'Android Studio, Kotlin',
       image: '/images/pactroll.png',
+      link: 'https://github.com/Seanpesis/pactroll',
     },
     {
       title: 'DevOps Project',
@@ -61,7 +62,8 @@ function Projects() {
       description: 'Platform to discover and get recommendations for movies based on ratings, genres, titles, and directors.',
       techStack: 'React, CSS, Axios, Git & GitHub',
       image: '/images/logomov.png',
-      link: 'https://movies-and-chills.netlify.app/',
+      siteLink: 'https://movies-and-chills.netlify.app/',
+      link: 'https://github.com/Seanpesis/movie-recommendations',
     },
     {
       title: 'Interactive Hand-Controlled Pong Game',
@@ -108,6 +110,16 @@ function Projects() {
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
                 <p><strong>Tech Stack:</strong> {project.techStack}</p>
+                {project.siteLink && (
+                  <a
+                    href={project.siteLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link visit-site"
+                  >
+                    Visit Site
+                  </a>
+                )}
                 {project.link && (
                   <a
                     href={project.link}
