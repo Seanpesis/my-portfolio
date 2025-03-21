@@ -45,6 +45,14 @@ function Projects() {
       link: 'https://github.com/Seanpesis/devops-portfolio-project',
     },
     {
+      title: 'TaskIT',
+      description: 'A Hebrew task management desktop app built with WPF and .NET, storing tasks locally with SQLite.',
+      techStack: ' C#, .NET 8, WPF, XAML, SQLite, Entity Framework Core',
+      image: '/images/desktop-app.png',
+      downloadLink: '/files/TaskIT_INSTALL.zip', 
+      link: 'https://github.com/Seanpesis/TaskIT',
+    },
+    {
       title: 'Tetris Game',
       description: 'Developed in Swift for iPad with responsive controls.',
       techStack: 'Swift, Xcode',
@@ -110,7 +118,17 @@ function Projects() {
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
                 <p><strong>Tech Stack:</strong> {project.techStack}</p>
-                {project.siteLink && (
+
+                {/* Render "Download Application" only for TaskIT */}
+                {project.downloadLink ? (
+                  <a
+                    href={project.downloadLink}
+                    download
+                    className="project-link download-btn"
+                  >
+                    Download Application
+                  </a>
+                ) : project.siteLink ? (
                   <a
                     href={project.siteLink}
                     target="_blank"
@@ -119,7 +137,9 @@ function Projects() {
                   >
                     Visit Site
                   </a>
-                )}
+                ) : null}
+
+                {/* Render GitHub Link for all projects */}
                 {project.link && (
                   <a
                     href={project.link}

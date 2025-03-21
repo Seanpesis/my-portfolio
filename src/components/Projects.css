@@ -125,6 +125,15 @@
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+.project-link.download-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.project-link.download-btn:hover {
+  background-color: #218838;
+}
+
 .custom-prev {
   left: -50px;
 }
