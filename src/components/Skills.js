@@ -55,6 +55,15 @@ function Skills() {
               <li>WSL</li>
             </ul>
           </div>
+          <div className='skill-category'>
+            <h3>Operating Systems & Environments</h3>
+            <ul>
+              <li>WSL</li>
+              <li>Ubuntu</li>
+              <li>Lubuntu</li>
+              <li>Kali-linux</li>
+            </ul>
+          </div>
           <div className="skill-category">
             <h3>DevOps & CI/CD</h3>
             <ul>
