@@ -55,7 +55,7 @@ function Projects() {
       title: 'TaskIT',
       description: 'A Hebrew task management desktop app built with WPF and .NET, storing tasks locally with SQLite.',
       techStack: ' C#, .NET 8, WPF, XAML, SQLite, Entity Framework Core',
-      image: '/images/desktop-app.png',
+      video: '/videos/taskit-demo.mp4',
       downloadLink: '/files/TaskIT_INSTALL.zip', 
       link: 'https://github.com/Seanpesis/TaskIT',
     },
@@ -98,7 +98,7 @@ function Projects() {
       title: "Emoji Gesture App",
       description: "An innovative application that transforms hand gestures into emojis using real-time computer vision and AI. Built with Python, OpenCV, and MediaPipe, this app streamlines digital communication by allowing users to generate emojis through natural hand movements.",
       techStack: "Python, OpenCV, MediaPipe, PyQt, NumPy",
-      image: "/images/EmojiGestureApp.png",
+      video: "/videos/emoji-demo.mp4",
       link: 'https://github.com/Seanpesis/emoji-gesture-app',
     },
   ];
@@ -109,8 +109,8 @@ function Projects() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />, 
+    prevArrow: <PrevArrow />, 
   };
 
   return (
@@ -120,13 +120,28 @@ function Projects() {
         <Slider {...settings}>
           {projectList.map((project, index) => (
             <div key={index} className="project-slide">
-              <img src={project.image} alt={project.title} />
+              {project.video ? (
+                <video
+                  src={project.video}
+                  controls
+                  className="project-media"
+                  style={{
+                    maxWidth: '80%',
+                    height: 'auto',
+                    maxHeight: '250px',
+                    objectFit: 'contain',
+                    borderRadius: '10px',
+                    margin: '0 auto'
+                  }}
+                />
+              ) : (
+                <img src={project.image} alt={project.title} className="project-media" />
+              )}
               <div className="project-info">
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
                 <p><strong>Tech Stack:</strong> {project.techStack}</p>
 
-                {/* Render "Download Application" only for TaskIT */}
                 {project.downloadLink ? (
                   <a
                     href={project.downloadLink}
@@ -146,7 +161,6 @@ function Projects() {
                   </a>
                 ) : null}
 
-                {/* Render GitHub Link for all projects */}
                 {project.link && (
                   <a
                     href={project.link}
