@@ -7,7 +7,7 @@ function Hero() {
       <div className="container">
         <img src="/images/profile.png" alt="Sean Pesis" />
         <h1>Hi there, I'm Sean 👋</h1>
-        <h2>Third-year Computer Science Student</h2>
+        <h2>Full Stack Engineer and Third-year Computer Science Student</h2>
         <p>
           🔭 I’m currently working on side projects and learning various technologies.<br />
           🎓 Studying Computer Science (BSc, 3rd year).<br />
