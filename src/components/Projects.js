@@ -23,6 +23,13 @@ function PrevArrow({ onClick }) {
 function Projects() {
   const projectList = [
     {
+      title: 'WSL2 - Task Manager',
+      description: 'The code uses Linux semaphores to synchronize multiple processes, allowing them to safely access shared resources without conflicts.',
+      techStack: 'C, GCC, Linux (WSL2), System V Semaphores',
+      image: '/images/TaskWSL.png',
+      link: 'https://github.com/Seanpesis/task-manager-wsl2',
+    },
+    {
       title: 'Friendly Place',
       description: 'Social platform for sharing experiences.',
       techStack: 'React, Node.js, MongoDB',
