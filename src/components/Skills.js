@@ -52,7 +52,6 @@ function Skills() {
             <ul>
               <li>Bash</li>
               <li>PowerShell</li>
-              <li>WSL</li>
             </ul>
           </div>
           <div className='skill-category'>
