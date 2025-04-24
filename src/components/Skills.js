@@ -19,6 +19,8 @@ function Skills() {
               <li>C</li>
               <li>C++</li>
               <li>C#</li>
+              <li>Vue.js</li>
+              <li>php</li>
             </ul>
           </div>
           <div className="skill-category">
