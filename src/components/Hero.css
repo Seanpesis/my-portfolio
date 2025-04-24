@@ -1,7 +1,8 @@
 #hero {
-  background: linear-gradient(to right, #f8f8f8, #ffffff);
-  padding: 100px 20px;
+  background: linear-gradient(135deg, #fff6f7, #ffebee);
+  padding: 100px 0;
   text-align: center;
+  width: 100%;
 }
 
 #hero .container {
