@@ -10,16 +10,24 @@ function Experience() {
           <h3>Full Stack Engineer - Herzliya Medical Center</h3>
           <p><strong>Dec 2024 - Present</strong></p>
           <p>
-          ● Built and maintained secure, high-performance web applications and patient portals using modern frameworks and backend technologies.<br />
-          ● Integrated APIs and databases to ensure smooth data flow and optimized user experience.
+          ● Improved web application performance by 35% and reduced load times by 50% through front-end optimization.<br />
+          ● Increased user engagement by 20% via enhanced UI/UX and streamlined feature access.
           </p>
         </div>
         <div className="experience-item">
-          <h3>Devops Engineer - Herzliya Medical Center</h3>
-          <p><strong>Jan 2021 - Dec 2024</strong></p>
+          <h3>DevOps Engineer & Cloud Infra Lead - Herzliya Medical Center</h3>
+          <p><strong>Jan 2023 - Dec 2024</strong></p>
           <p>
-          ● Designed and managed CI/CD pipelines, containerized applications with Docker/Kubernetes, and maintained cloud infrastructure for scalability and security.<br />
-          ● Reduced deployment times and improved system reliability through proactive monitoring and automated processes.
+          ● Spearheaded CI/CD pipeline implementation using Jenkins and Azure Pipelines, significantly enhancing deployment reliability.<br />
+          ● Cut infrastructure costs by 15% through optimized Docker and Kubernetes orchestration.
+          </p>
+        </div>
+        <div className="experience-item">
+          <h3>IT Help-Desk & Systems Specialist - Herzliya Medical Center</h3>
+          <p><strong>Jan 2020 - Jan 2023</strong></p>
+          <p>
+          ● Managed and supported over 450 endpoints, automating software deployments and patching via custom scripting.<br />
+          ● Achieved >98% data recovery success rate; consistently recognized for excellence in customer support.
           </p>
         </div>
       </div>

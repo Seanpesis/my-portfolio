@@ -8,7 +8,7 @@ function Education() {
       <div className="education-container">
         <div className="education-item">
           <h3>Bachelor's Degree in Computer Science - HIT Holon Technology Institute</h3>
-          <p><strong>2022 - 2025</strong></p>
+          <p><strong>2022 - Expected 2025</strong></p>
           <p>Currently pursuing a Bachelor's degree in Computer Science.</p>
         </div>
         <div className="education-item">
