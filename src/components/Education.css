@@ -1,0 +1,36 @@
+#education {
+  padding: 50px 20px;
+  width: 100%;
+}
+
+#education h2 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education-item {
+  background-color: #ecf0f1;
+  padding: 20px;
+  margin: 10px;
+  width: 80%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .education-item {
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+  }
+  #education h2 {
+    font-size: 2em;
+  }
+}

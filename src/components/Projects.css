@@ -1,0 +1,161 @@
+#projects {
+  padding: 80px 0;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+#projects h2 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  text-align: center;
+  color: #333333;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+.project-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.project-info {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.project-info h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #e94560;
+  margin-bottom: 10px;
+}
+
+.project-info p {
+  margin: 10px 0;
+  color: #555555;
+  margin-bottom: 10px;
+}
+
+.project-link.visit-site {
+  margin-bottom: 35px;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #e94560;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s, transform 0.3s;
+  text-align: center;
+}
+
+.project-link:hover {
+  background-color: #ff5e7d;
+  transform: translateY(-3px);
+  text-decoration: underline;
+}
+
+.project-slide {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-slide img {
+  max-width: 80%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-info {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.project-info h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.project-info p {
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(233, 69, 96, 0.8);
+  color: white;
+  border-radius: 50%;
+  padding: 15px 25px;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 2;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.project-link.download-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.project-link.download-btn:hover {
+  background-color: #218838;
+}
+
+.custom-prev {
+  left: -50px;
+}
+
+.custom-next {
+  right: -50px;
+}
+
+.custom-arrow:hover {
+  background-color: #ff5e7d;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  #projects {
+    padding: 60px 20px;
+  }
+  #projects h2 {
+    font-size: 2em;
+  }
+  .custom-arrow {
+    padding: 10px 15px;
+    font-size: 24px;
+  }
+}
